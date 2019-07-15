@@ -124,3 +124,53 @@ actions.window = function()
 	keyboard.stroke("F11");
 end
 
+
+--@help Press zero
+actions.num_0 = function ()
+	keyboard.press("num0");
+end
+
+--@help Press One
+actions.num_1 = function ()
+	keyboard.press("num1");
+end
+
+--@help Press Two
+actions.num_2 = function ()
+	keyboard.press("num2");
+end
+
+--@help Press Three
+actions.num_3 = function ()
+	keyboard.press("num3");
+end
+
+--@help Press Four
+actions.num_4 = function ()
+	keyboard.press("num4");
+end
+
+--@help Press Five
+actions.num_5 = function ()
+	keyboard.press("num5");
+end
+
+--@help Press Six
+actions.num_6 = function ()
+	keyboard.press("num6");
+end
+
+--@help Press Seven
+actions.num_7 = function ()
+	keyboard.press("num7");
+end
+
+--@help Press Eight
+actions.num_8 = function ()
+	keyboard.press("num8");
+end
+
+--@help Press Nine
+actions.num_9 = function ()
+	keyboard.press("num9");
+end

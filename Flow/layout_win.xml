@@ -1,23 +1,45 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <layout onLaunch="launch" onVolumeUp="volume_up" onVolumeDown="volume_down" onResume="resume" onPause="pause" color="#29f0b7">
-  <grid>
-    <row>
-      <button icon="rwd" onTap="rewind" />
-      <button icon="select" onTap="select" />
-      <button icon="ff" onTap="forward" />
-    </row>
-    <row>
-      <button icon="vup" onTap="volume_up" />
-      <button icon="playpause" onTap="play_pause" />
-      <button icon="up" onTap="right" />
-    </row>
-    <row>
-      <button icon="vdown" onTap="volume_down" />
-      <button icon="vmute" onTap="volume_mute" />
-      <button icon="down" onTap="left" />
-    </row>
-    <row>
-      <button icon="fullscreen" onTap="fullscreen" />
-    </row>
-  </grid>
+  <tabs>
+    <tab text="Basic controls">
+	    <row>
+	      <button icon="rwd" onTap="rewind" />
+	      <button icon="select" onTap="select" />
+	      <button icon="ff" onTap="forward" />
+	    </row>
+	    <row>
+	      <button icon="vup" onTap="volume_up" />
+	      <button icon="playpause" onTap="play_pause" />
+	      <button icon="up" onTap="right" />
+	    </row>
+	    <row>
+	      <button icon="vdown" onTap="volume_down" />
+	      <button icon="vmute" onTap="volume_mute" />
+	      <button icon="down" onTap="left" />
+	    </row>
+	    <row>
+	      <button icon="fullscreen" onTap="fullscreen" />
+	    </row>
+    </tab>
+    <tab text="Numpad">
+	    <row>
+	      <button text="7" onTap="num_7" />
+		  <button text="8" onTap="num_8" />
+		  <button text="9" onTap="num_9" />
+	    </row>
+	    <row>
+	      <button text="4" onTap="num_4" />
+		  <button text="5" onTap="num_5" />
+		  <button text="6" onTap="num_6" />
+	    </row>
+	    <row>
+	      <button text="1" onTap="num_1" />
+		  <button text="2" onTap="num_2" />
+		  <button text="3" onTap="num_3" />
+	    </row>
+		<row>
+	      <button text="0" weight="3" onTap="num_0" />
+	    </row>
+   	</tab>
+  </tabs>
 </layout>
