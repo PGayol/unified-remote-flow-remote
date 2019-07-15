@@ -21,7 +21,7 @@ To do list:
 - Open/close onscreen TV Guide
 - Toggle audio language
 - Press "Live" button
-- ~~ Add numpad to select specific channel ~~
+- ~~Add numpad to select specific channel~~
 
 (Those things can actually be done through the mousepad).
 
