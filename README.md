@@ -17,6 +17,7 @@ On your phone, with Unified Remote App already installed:
 
 To do list:
 
+- Fix fullscreen (actually using browser fullscreen instead of native webapp fulscreen)
 - Open/close onscren TV Guide
 - Toggle audio language
 - Press "Live" button
