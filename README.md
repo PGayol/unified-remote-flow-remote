@@ -8,6 +8,7 @@ On your computer, with Unified Remote Server already installed:
 3. Go to http://localhost:9510/web/ and press "RESTART SERVER" button.
 
 On your phone, with Unified Remote App already installed:
+
 4. Open the app
 5. In the menu bar, go to "Remotes", press the "+" button and search for "Cablevision Flow webapp" in the "Media" section.
 6. Select it and it will show up on your "Remotes section".
