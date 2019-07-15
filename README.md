@@ -25,5 +25,5 @@ To do list:
 
 Current actions:
 
-![alt text](https://raw.githubusercontent.com/PGayol/unified-remote-flow-remote/master/instructions.jpg)
+![alt text](https://github.com/PGayol/unified-remote-flow-remote/blob/master/instructions.jpeg?raw=true)
 
