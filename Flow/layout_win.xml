@@ -4,7 +4,7 @@
     <tab text="Basic controls">
 	    <row>
 	      <button icon="rwd" onTap="rewind" />
-	      <button icon="select" onTap="select" />
+	      <button icon="flash" onTap="goLive" />
 	      <button icon="ff" onTap="forward" />
 	    </row>
 	    <row>
@@ -19,13 +19,14 @@
 	    </row>
 	    <row>
 	      <button icon="fullscreen" onTap="fullscreen" />
+	      <button icon="list" onTap="showGuide" />
 	    </row>
     </tab>
     <tab text="Numpad">
-	    <row>
-	      <button text="7" onTap="num_7" />
-		  <button text="8" onTap="num_8" />
-		  <button text="9" onTap="num_9" />
+    	  <row>
+	      <button text="1" onTap="num_1" />
+		  <button text="2" onTap="num_2" />
+		  <button text="3" onTap="num_3" />
 	    </row>
 	    <row>
 	      <button text="4" onTap="num_4" />
@@ -33,9 +34,9 @@
 		  <button text="6" onTap="num_6" />
 	    </row>
 	    <row>
-	      <button text="1" onTap="num_1" />
-		  <button text="2" onTap="num_2" />
-		  <button text="3" onTap="num_3" />
+	      <button text="7" onTap="num_7" />
+		  <button text="8" onTap="num_8" />
+		  <button text="9" onTap="num_9" />
 	    </row>
 		<row>
 	      <button text="0" weight="3" onTap="num_0" />

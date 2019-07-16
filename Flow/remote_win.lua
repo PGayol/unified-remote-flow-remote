@@ -123,6 +123,15 @@ actions.window = function()
 	keyboard.stroke("F11");
 end
 
+--@help Show onscreen guide
+actions.showGuide = function()
+	keyboard.stroke("shift", "g")
+end
+
+--@help Go live
+actions.goLive = function()
+	keyboard.stroke("shift", "v")
+end
 
 --@help Press zero
 actions.num_0 = function ()
