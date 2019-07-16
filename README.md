@@ -1,7 +1,7 @@
 # unified-remote-flow-remote
 Unified Remote custom remote for controlling Cablevisión Flow webapp
 
-**Info: For correct functioning of all features, you have to install [Google Chrome's Shortkeys (Custom Keyboard Shortcuts) extension by Mike Crittenden](https://chrome.google.com/webstore/detail/shortkeys-custom-keyboard/logpjaacgmcbpdkdchjiaagddngobkck)**
+**Info: For correct functioning of all features, you must install [Google Chrome's Shortkeys (Custom Keyboard Shortcuts) extension by Mike Crittenden](https://chrome.google.com/webstore/detail/shortkeys-custom-keyboard/logpjaacgmcbpdkdchjiaagddngobkck)**
 
 Install:
 On your computer, with Unified Remote Server already installed:
