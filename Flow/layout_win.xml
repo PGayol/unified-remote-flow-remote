@@ -20,6 +20,7 @@
 	    <row>
 	      <button icon="fullscreen" onTap="fullscreen" />
 	      <button icon="list" onTap="showGuide" />
+	      <button icon="web" onTap="changeSAP" />
 	    </row>
     </tab>
     <tab text="Numpad">

@@ -133,6 +133,10 @@ actions.goLive = function()
 	keyboard.stroke("shift", "v")
 end
 
+--@help --TODO: toggle SAP
+actions.changeSAP = function()
+end
+
 --@help Press zero
 actions.num_0 = function ()
 	keyboard.press("num0");
