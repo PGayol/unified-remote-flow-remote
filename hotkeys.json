@@ -1,0 +1,42 @@
+[
+   {
+      "action":"javascript",
+      "activeInInputs":false,
+      "blacklist":"whitelist",
+      "code":"document.querySelector('.vop-fullscreen-button').click();",
+      "customName":"Toggle fullscreen",
+      "exported":true,
+      "key":"shift+f",
+      "open":false,
+      "sites":"https://web.flow.com.ar/guia-de-tv",
+      "sitesArray":[
+         "https://web.flow.com.ar/guia-de-tv"
+      ]
+   },
+   {
+      "action":"javascript",
+      "blacklist":"whitelist",
+      "code":"document.querySelector('.backButton').click();",
+      "customName":"Show/Hide guide",
+      "exported":true,
+      "key":"shift+g",
+      "open":false,
+      "sites":"https://web.flow.com.ar/guia-de-tv",
+      "sitesArray":[
+         "https://web.flow.com.ar/guia-de-tv"
+      ]
+   },
+   {
+      "action":"javascript",
+      "blacklist":"whitelist",
+      "code":"document.querySelector('.liveButton').click();",
+      "customName":"Go live",
+      "exported":true,
+      "key":"shift+v",
+      "open":false,
+      "sites":"https://web.flow.com.ar/guia-de-tv",
+      "sitesArray":[
+         "https://web.flow.com.ar/guia-de-tv"
+      ]
+   }
+]
