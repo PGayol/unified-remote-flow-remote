@@ -19,16 +19,6 @@ On your phone, with Unified Remote App already installed:
 9. In the menu bar, go to "Remotes", press the "+" button and search for "Cablevision Flow webapp" in the "Media" section.
 10. Select it and it will show up on your "Remotes section".
 
-
-
-To do list:
-
-- ~~Fix fullscreen (actually using browser fullscreen instead of native webapp fullscreen)~~
-- ~~Open/close onscreen TV Guide~~
-- Toggle audio language
-- ~~Press "Live" button~~
-- ~~Add numpad to select specific channel~~
-
 Current actions:
 
 ![alt text](https://github.com/PGayol/unified-remote-flow-remote/blob/master/instructions.jpeg?raw=true)

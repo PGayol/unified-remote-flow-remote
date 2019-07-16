@@ -38,5 +38,18 @@
       "sitesArray":[
          "https://web.flow.com.ar/guia-de-tv"
       ]
-   }
+   },
+   {
+     "key":"shift+l",
+     "action":"javascript",
+     "blacklist":"whitelist",
+     "sites":"https://web.flow.com.ar/guia-de-tv",
+     "open":false,
+     "customName":"Toggle SAP",
+     "code":"if (typeof player !== \"undefined\") {\n  player = this.playerUI;\n} else {\n  var player = this.playerUI;\n}\nif (typeof currentLanguage !== \"undefined\") {\n  currentLanguage = player.getCurrentAudioTrack().lang;\n} else {\n  var currentLanguage = player.getCurrentAudioTrack().lang;\n}\nif (typeof desiredLanguageId !== \"undefined\") {\n  desiredLanguageId = player.getAudioTracks().find( track => track.lang != currentLanguage ).id;\n} else {\n  var desiredLanguageId = player.getAudioTracks().find( track => track.lang != currentLanguage ).id;\n}\nthis.playerUI.selectAudioTrack(desiredLanguageId);",
+     "exported":true,
+     "sitesArray":[
+        "https://web.flow.com.ar/guia-de-tv"
+     ]
+  }
 ]

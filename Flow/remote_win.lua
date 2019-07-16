@@ -135,6 +135,7 @@ end
 
 --@help --TODO: toggle SAP
 actions.changeSAP = function()
+	keyboard.stroke("shift", "l")
 end
 
 --@help Press zero
