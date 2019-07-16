@@ -33,4 +33,4 @@ Current actions:
 
 ![alt text](https://github.com/PGayol/unified-remote-flow-remote/blob/master/instructions.jpeg?raw=true)
 
-Thanks to @fran122157 for helping!
+**Thanks to [@fran122157](https://github.com/fran122157) for helping!**
