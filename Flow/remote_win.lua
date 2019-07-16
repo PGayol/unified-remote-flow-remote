@@ -113,8 +113,7 @@ end
 --@help Fullscreen view
 actions.fullscreen = function()
 	actions.switch();
-	keyboard.stroke("F11");
-	keyboard.stroke("F");
+	keyboard.stroke("shift", "f");
 end
 
 --@help Windowed view
