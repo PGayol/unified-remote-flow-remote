@@ -40,16 +40,29 @@
       ]
    },
    {
-     "key":"shift+l",
-     "action":"javascript",
-     "blacklist":"whitelist",
-     "sites":"https://web.flow.com.ar/guia-de-tv",
-     "open":false,
-     "customName":"Toggle SAP",
-     "code":"if (typeof player !== \"undefined\") {\n  player = this.playerUI;\n} else {\n  var player = this.playerUI;\n}\nif (typeof currentLanguage !== \"undefined\") {\n  currentLanguage = player.getCurrentAudioTrack().lang;\n} else {\n  var currentLanguage = player.getCurrentAudioTrack().lang;\n}\nif (typeof desiredLanguageId !== \"undefined\") {\n  desiredLanguageId = player.getAudioTracks().find( track => track.lang != currentLanguage ).id;\n} else {\n  var desiredLanguageId = player.getAudioTracks().find( track => track.lang != currentLanguage ).id;\n}\nthis.playerUI.selectAudioTrack(desiredLanguageId);",
-     "exported":true,
-     "sitesArray":[
-        "https://web.flow.com.ar/guia-de-tv"
-     ]
-  }
+      "action":"javascript",
+      "blacklist":"whitelist",
+      "code":"if (typeof player !== \"undefined\") {\n  player = this.playerUI;\n} else {\n  var player = this.playerUI;\n}\nif (typeof currentLanguage !== \"undefined\") {\n  currentLanguage = player.getCurrentAudioTrack().lang;\n} else {\n  var currentLanguage = player.getCurrentAudioTrack().lang;\n}\nif (typeof desiredLanguageId !== \"undefined\") {\n  desiredLanguageId = player.getAudioTracks().find( track => track.lang != currentLanguage ).id;\n} else {\n  var desiredLanguageId = player.getAudioTracks().find( track => track.lang != currentLanguage ).id;\n}\nthis.playerUI.selectAudioTrack(desiredLanguageId);",
+      "customName":"Toggle SAP",
+      "exported":true,
+      "key":"shift+l",
+      "open":false,
+      "sites":"https://web.flow.com.ar/guia-de-tv",
+      "sitesArray":[
+         "https://web.flow.com.ar/guia-de-tv"
+      ]
+   },
+   {
+      "action":"javascript",
+      "blacklist":"whitelist",
+      "code":"if (typeof player !== \"undefined\") {\n  player = this.playerUI;\n} else {\n  var player = this.playerUI;\n}\nif (typeof currentLanguage !== \"undefined\") {\n  currentSub = player.getCurrentSubtitleTrack().id;\n} else {\n  var currentSub = player.getCurrentSubtitleTrack().id;\n}\nif (typeof desiredSubId !== \"undefined\") {\n  if (currentSub == '0') {\n  \tdesiredSubId = '';\n  } else {\n  \tdesiredSubId = '0';\n  }\n} else {\n  var desiredSubId;\n  if (currentSub == '0') {\n  \tdesiredSubId = '';\n  } else {\n  \tdesiredSubId = '0';\n  }\n}\n\nthis.playerUI.selectSubtitleTrack(desiredSubId);",
+      "customName":"Toggle Subtitles",
+      "exported":true,
+      "key":"shift+q",
+      "open":false,
+      "sites":"https://web.flow.com.ar/guia-de-tv",
+      "sitesArray":[
+         "https://web.flow.com.ar/guia-de-tv"
+      ]
+   }
 ]

@@ -133,9 +133,14 @@ actions.goLive = function()
 	keyboard.stroke("shift", "v")
 end
 
---@help --TODO: toggle SAP
+--@help Toggle SAP
 actions.changeSAP = function()
 	keyboard.stroke("shift", "l")
+end
+
+--@help Toggle Subs
+actions.changeSubs = function()
+	keyboard.stroke("shift", "q")
 end
 
 --@help Press zero

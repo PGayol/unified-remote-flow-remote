@@ -21,6 +21,7 @@
 	      <button icon="fullscreen" onTap="fullscreen" />
 	      <button icon="list" onTap="showGuide" />
 	      <button icon="web" onTap="changeSAP" />
+	      <button icon="repeat" onTap="changeSubs" />
 	    </row>
     </tab>
     <tab text="Numpad">
