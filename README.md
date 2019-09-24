@@ -3,8 +3,8 @@ Unified Remote custom remote for controlling Cablevisión Flow webapp
 
 **Info: For correct functioning of all features, you must install [Google Chrome's Shortkeys (Custom Keyboard Shortcuts) extension by Mike Crittenden](https://chrome.google.com/webstore/detail/shortkeys-custom-keyboard/logpjaacgmcbpdkdchjiaagddngobkck)**
 
-Install:
-On your computer, with Unified Remote Server already installed:
+**Install:**
+**On your computer, with Unified Remote Server already installed:**
 1. Clone the repo
 2. Copy the Flow folder into C:\ProgramData\Unified Remote\Remotes\Custom
 3. Go to http://localhost:9510/web/ and press "RESTART SERVER" button.
@@ -13,7 +13,7 @@ On your computer, with Unified Remote Server already installed:
 6. A modal windows will show up. Select the "Import tab" and paste the content of "hotkeys.json" file.
 7. Press the "import" button and restart chrome.
 
-On your phone, with Unified Remote App already installed:
+**On your phone, with Unified Remote App already installed:**
 
 8. Open the app
 9. In the menu bar, go to "Remotes", press the "+" button and search for "Cablevision Flow webapp" in the "Media" section.
