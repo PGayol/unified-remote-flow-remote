@@ -21,6 +21,6 @@ Unified Remote custom remote for controlling Cablevisión Flow webapp
 
 Current actions:
 
-![alt text](https://github.com/PGayol/unified-remote-flow-remote/blob/master/instructions.jpeg?raw=true)
+![alt text](https://github.com/PGayol/unified-remote-flow-remote/blob/master/instructions2.jpeg?raw=true)
 
 **Thanks to [@fran122157](https://github.com/fran122157) for helping!**
