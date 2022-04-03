@@ -42,7 +42,7 @@
    {
       "action":"javascript",
       "blacklist":"whitelist",
-      "code":"if (typeof player !== \"undefined\") {\n  player = this.playerUI;\n} else {\n  var player = this.playerUI;\n}\nif (typeof currentLanguage !== \"undefined\") {\n  currentLanguage = player.getCurrentAudioTrack().lang;\n} else {\n  var currentLanguage = player.getCurrentAudioTrack().lang;\n}\nif (typeof desiredLanguageId !== \"undefined\") {\n  desiredLanguageId = player.getAudioTracks().find( track => track.lang != currentLanguage ).id;\n} else {\n  var desiredLanguageId = player.getAudioTracks().find( track => track.lang != currentLanguage ).id;\n}\nthis.playerUI.selectAudioTrack(desiredLanguageId);",
+      "code":"var langs = this.player.getAudioLanguages(); if (typeof currentAudioIndex !== 'undefined') { if (currentAudioIndex < langs.length - 1) { currentAudioIndex = currentAudioIndex + 1; } else { currentAudioIndex = 0; } } else { var currentAudioIndex = 0 } this.player.selectAudioLanguage(langs[currentAudioIndex]); console.log('Audio changed to: ', langs[currentAudioIndex]);",
       "customName":"Toggle SAP",
       "exported":true,
       "key":"shift+l",
@@ -55,7 +55,7 @@
    {
       "action":"javascript",
       "blacklist":"whitelist",
-      "code":"if (typeof player !== \"undefined\") {\n  player = this.playerUI;\n} else {\n  var player = this.playerUI;\n}\nif (typeof currentLanguage !== \"undefined\") {\n  currentSub = player.getCurrentSubtitleTrack().id;\n} else {\n  var currentSub = player.getCurrentSubtitleTrack().id;\n}\nif (typeof desiredSubId !== \"undefined\") {\n  if (currentSub == '0') {\n  \tdesiredSubId = '';\n  } else {\n  \tdesiredSubId = '0';\n  }\n} else {\n  var desiredSubId;\n  if (currentSub == '0') {\n  \tdesiredSubId = '';\n  } else {\n  \tdesiredSubId = '0';\n  }\n}\n\nthis.playerUI.selectSubtitleTrack(desiredSubId);",
+      "code":"var langs = this.player.getTextLanguages(); if (typeof currentSubIndex !== 'undefined') { if (currentSubIndex < langs.length - 1) { currentSubIndex = currentSubIndex + 1; } else { currentSubIndex = 0; } } else { var currentSubIndex = 0 } this.player.selectTextLanguage(langs[currentSubIndex]); console.log('Subs changed to: ', langs[currentSubIndex]);",
       "customName":"Toggle Subtitles",
       "exported":true,
       "key":"shift+q",
