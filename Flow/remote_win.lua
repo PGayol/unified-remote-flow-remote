@@ -192,3 +192,13 @@ end
 actions.num_9 = function ()
 	keyboard.press("num9");
 end
+
+--@help Refresh
+actions.refresh = function ()
+	keyboard.press("F5");
+end
+
+--@help Enter
+actions.enter = function ()
+	keyboard.press("enter");
+end

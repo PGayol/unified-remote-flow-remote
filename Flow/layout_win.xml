@@ -18,6 +18,10 @@
 	      <button icon="down" onTap="left" />
 	    </row>
 	    <row>
+	      <button icon="refresh" onTap="refresh" />
+	      <button icon="docleft" onTap="enter" />
+	    </row>
+	    <row>
 	      <button icon="fullscreen" onTap="fullscreen" />
 	      <button icon="list" onTap="showGuide" />
 	      <button icon="web" onTap="changeSAP" />
